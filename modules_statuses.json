@@ -1,0 +1,17 @@
+{
+    "GeoTracker": true,
+    "LoanAdvance": true,
+    "Expense": true,
+    "Travel": true,
+    "Leave": true,
+    "HrServices": true,
+    "PerformanceManagement": true,
+    "ExitManagement": true,
+    "PerformanceReward": true,
+    "Attendance": true,
+    "CompAndBen": true,
+    "OrgStructure": true,
+    "AttendanceCorrection": true,
+    "Setup": true,
+    "HrServicesSetupBackend": true
+}
