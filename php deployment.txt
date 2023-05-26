@@ -1,0 +1,40 @@
+php deployment
+
+SVN update -- shoow logs
+WINSCP copy files from my local to my server and chnage permissions
+
+cd to /opt/lampp/htdocs/qa/3.2.1/peoplei/migtae_something
+
+copy command
+cp -prfv /home/shah.hussain/836/branches/peoplei-dev/* .
+
+change permissions to ui folder
+chown -R www-data: ui/
+
+
+
+
+php full project deployment
+
+create folder in SVN directory name after the new project
+copy code from the directory what is mentioned in the mail
+paste in the new folder
+
+now copy zip file in the php server 
+mkdir in the server the path is mentioned in the mail 
+unzip all the files there
+remove zip file
+
+edit file nano common_ppi.php 
+change db name in the file with db name you created for this project
+
+cp -prfv common_ppi.php commonppi_people.php
+
+chown -R www-data: ui/
+chmod -R 777 ui
+
+nano config.php
+set link to access the website
+
+
+set permissions using chown -R www-data: *

@@ -1,0 +1,1 @@
+Multiple Folder Creation Queries: mkdir -p hrServices/expense/ExpenseApplications hrServices/leave/leaveQuota hrServices/leave/leaveApplications && chown -R www-data: /websites/assets

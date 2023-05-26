@@ -1,0 +1,11 @@
+copy code to local server to relevant path
+copy db to local db with same name
+ 
+
+in php clone project
+change DB name Server Host And Username common.ppi.php and common_ppi_people.php
+open config file and update local link with new path and update 
+site_url with the same path
+
+remove .htaccess from ui folder
+command : rm -rf  ui/.htaccess
